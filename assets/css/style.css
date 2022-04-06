@@ -130,6 +130,11 @@ a.scroll-top i {
   color: #fff;
 }
 
+.logo {
+  color: red;
+  z-index: 1000;
+}
+
 .page-title-content ul {
   margin: 0;
   padding: 0;
@@ -735,6 +740,11 @@ a.scroll-top i {
 .navbar-area .main-nav .navbar .navbar-nav .nav-item:hover .dropdown-toggle::after {
   -webkit-transform: rotate(-270deg);
           transform: rotate(-270deg);
+}
+
+.navbar-brand {
+  color: #1d42d9 !important;
+  font-style: oblique;
 }
 
 .black {
